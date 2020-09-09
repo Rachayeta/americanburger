@@ -1,0 +1,380 @@
+/*color:#3d2514,Discover:#3d3d3d*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*************banner************/
+
+.banner{
+	width: 100%;
+	background-image: url(../Image/banner2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 740px;
+}
+
+.nav-link{
+	font-family:'Bebas Neue', cursive !important;
+	font-size: 18px !important;
+    letter-spacing: 2px !important;
+    margin-right: 14px !important;
+
+}
+
+.navbar li a:hover{
+	color: white !important;
+}
+
+.banner .para{
+	margin-top: 151px;
+    margin-left: 24px;
+    color: #3d2514;
+}
+
+.banner h4{
+	font-size: 20px !important;
+    font-family: 'Bebas Neue', cursive !important;
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    padding: 2px 9px;
+}
+
+.banner h1{
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 99px !important;
+    text-shadow: 3px 2px white;
+
+}
+
+.banner h2{
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 56px !important;
+    text-shadow: 2px 2px white;
+}
+
+.bannerimg{
+	position: relative;
+}
+
+.img1{
+	position: absolute;
+    right: 399px;
+    top: 100px;
+}
+
+
+/****** 2nd part*******/
+
+.secpart{
+	width: 100%;
+	margin-top: 40px;
+
+}
+.secpart img{
+	margin-bottom: 30px;
+}
+
+
+.secpart .left h2{
+	font-family: 'Bebas Neue', cursive !important;
+	color: white;
+	font-size: 33px !important;
+}
+
+.secpart .left h6{
+	font-family: 'Bebas Neue', cursive !important;
+	margin: 0;
+	color: white;
+	font-size: 21px !important;
+}
+
+.simg1{
+	position: relative;
+}
+.spara{
+	position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+.secpart .right h2{
+	font-family: 'Bebas Neue', cursive !important;
+	color: black;
+	font-size: 33px !important;
+	margin: 0;
+	line-height: 34px;
+	color: white;
+}
+
+.secpart .right h6{
+	font-family: 'Bebas Neue', cursive !important;
+	margin: 0;
+	color: black;
+	font-size: 21px !important;
+	color: white;
+}
+
+.secpart .simg2 img{
+	position: relative;
+}
+
+.secpart .spara2{
+	    position: relative;
+    top: -158px;
+    left: 18px;
+}
+ .sbutton{
+ 	text-align: center;		
+ }
+
+ .btn{
+ 	background: #ffc045;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 25px;
+    text-align: center;
+    outline: none;
+ }
+
+/*********3rd part*********/
+
+.thpart{
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.thpart .firstpart{
+	margin-bottom: 30px;
+}
+
+.thpart .firstpart h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514 !important;
+	margin-bottom: 20px;
+}
+
+.thpart .firstpart p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514 !important;
+	padding: 0 80px;
+}
+
+.thpart .secondpart{
+	margin-top: 65px;
+}
+
+.thpart .secondpart h2{
+	font-family: 'Bebas Neue', cursive !important;
+    color: #3d2514 !important;
+    margin-top: 10px;
+    font-size: 39px;
+}
+
+.thpart .secondpart p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	
+}
+
+.thpart .btn2{
+	background: red;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+.thpart .thirdpart{
+	margin-top: 11px !important;
+}
+
+.thpart .thirdpart img{
+	margin-top: 10px;
+}
+.thpart .thirdpart h2{
+	font-family: 'Bebas Neue', cursive !important;
+    color: #3d2514;
+    margin-top: 10px;
+    font-size: 39px;
+}
+
+.thpart .thirdpart p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	
+}
+
+.thpart .bottom{
+	margin-bottom: 30px;
+}
+
+/*4thpart*/
+
+.sliderpart .top2{
+	margin-top: 60px;
+}
+
+.sliderpart .left{
+	padding-left: 37px;
+}
+.sliderpart .left h3{
+     font-family: 'Bebas Neue', cursive !important;
+     color: #3d3d3d;
+     margin-top: 25px;
+     margin-bottom: 0;
+
+}
+
+.sliderpart .left h1{
+     font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+     margin-bottom: 30px;
+
+}
+
+.sliderpart .left p{
+     font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+
+}
+
+.sliderpart .event:hover{
+	box-shadow: 6px 5px 10px 0px black;
+}
+
+.owl-nav{
+	display: none;
+}
+
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+}
+
+
+/***********5thpart***********/
+.fifpart{
+	width: 100%;
+	background-image: url(../Image/bottle.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: 30px;
+}
+
+.fifpart .front{
+	text-align: center;
+}
+
+.fifpart .front h3{
+	font-family: 'Bebas Neue', cursive !important;
+     color: #3d3d3d;
+     margin-top: 85px;
+     margin-bottom: 0;
+}
+
+.fifpart .front h1{
+	 font-family: 'Alfa Slab One', cursive;
+     color: #3d2514;
+     margin-top: 10px;
+     margin-bottom: 30px;
+}
+
+.fifpart .next{
+	text-align: center;
+}
+
+.fifpart form input{
+	margin: 21px 31px 7px 6px;
+    padding: 19px 97px;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+
+
+.fifpart .form2{
+	margin: 10px 31px 7px 6px;
+    padding: 19px 97px;
+    font-family: 'Bebas Neue', cursive !important;
+}
+.fifpart .form2 input{
+	margin: 0px 41px 0px 0px;
+}
+.fifpart .form2 button{
+	padding: 20px 100px;
+	font-family: 'Alfa Slab One', cursive;
+	background: red;
+	border: none;
+	color: white;
+}
+
+ .sixpart .container{
+	width: 1140px;
+	background-image: url(../Image/lastpic.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+.sixpart .left2{
+	margin-top: 30px;
+
+}
+
+.sixpart .left2 img{
+	width: 80%;
+	margin-left: 16px;
+}
+
+.sixpart .left2 p{
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 138px;
+    margin-left: 16px;
+    line-height: 26px;
+}
+.sixpart .iconleft{
+	margin-top: 200px;
+    margin-left: 13px;
+}
+.sixpart .left2 .iconleft i{
+	color: white;
+
+}
+
+.sixpart .left2 .iconleft span{
+	font-family: 'Bebas Neue', cursive !important;
+	color: white;
+}
+
+
+.sixpart .right2 .icon2{
+	margin-left: 120px;
+    margin-top: 247px;
+    color: white;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+.icon2 i{
+	margin-right: 5px;
+    font-size: 33px;
+    color: white;
+}
+
